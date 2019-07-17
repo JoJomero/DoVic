@@ -1,0 +1,204 @@
+
+header {
+	background: #313131;
+}
+section {
+	background: #5a5a5a;
+}
+nav {
+	background: #313131;
+}
+footer {
+	background: #313131;
+
+	margin-bottom: -100%;
+}
+
+#celular {
+	display: none;
+}
+
+header img {
+	width: 15vw;
+}
+
+/*HEADER*/
+#hedtext {
+	margin-right: 2vw;
+}
+#hedtext img {
+	width: 2vw; 
+	cursor: pointer;
+}
+#hedtext a {
+	font-size: 1.5vw;
+	color: white;
+	text-decoration: none;
+}
+#hedtext a:hover {
+	color: gray;
+}
+/*HEADER*/
+
+/*NAVEGADOR*/
+#textnavcel {display: none;}
+#menbot2 { display: none; }
+.men2 {	
+	position: sticky;
+	z-index: 100;
+	top: 0;
+}
+#nav {
+	margin-top: 0.2vw;
+	margin-bottom: 0.5vw;
+	margin-left: 3vw;
+}
+#nav input {
+	width: 18vw;
+	height: 5vh;
+	border: 2.5px solid;
+	border-radius: 10px;
+	border-color: #5b3066;
+	background: #525252;
+	font-size: 20px;
+	color: white;
+	padding-left: 1vw;
+}
+#men {
+	background: #313131;
+	width: 23vw;
+	padding: 0.1%;
+	border: 1px solid #313131;
+	border-bottom-left-radius: 20px; 
+	border-bottom-right-radius: 20px;
+}
+#menu {
+	width: 25vw;
+}
+#textnav {
+	margin-right: 10vw;
+}
+#textnav a{
+	font-size: 1.5vw;
+	color: white;
+	text-decoration: none;
+}
+#textnav a:hover {
+	color: gray;
+}
+/*NAVEGADOR*/
+
+/*INICIO*/
+#men h1 {
+	font-size: 1.6vw;
+	text-align: center;
+	color: white;
+}
+
+#videx1 h1, #videx2 h1 {
+	margin-top: 1%;
+	color: white;
+	font-size: 1.2vw;
+}
+#videx1 {
+	margin-left: 2%; 
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+#videx2 {
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+/*INICIO*/
+
+/*FOOTER*/
+#footer a{
+	color: white;
+	text-decoration: none;
+	font-size: 1vw;
+	margin-left: 2vw;
+}
+/*FOOTER*/
+
+/*360 px*/
+@media(max-width: 630px){
+	#men, #videx1,#videx2 {display: none;}
+
+/*HEADER*/
+header img {
+	width: 30vw;
+}
+#hedtext {
+	margin-right: 5vw;
+}
+#hedtext img {
+	width: 7vw; 
+	cursor: pointer;
+}
+#hedtext a {
+	font-size: 5vw;
+}
+/*HEADER*/
+
+/*NAVEGADOR*/
+#menbot { display: none; }
+#textnav a{display: none;}
+#textnavcel {display: block;}
+#menbot2 { display: block;}
+
+#nav {
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+}
+#nav input {
+	width: 50vw;
+	height: 4vh;
+}
+#menu {
+	width: 80vw;
+}
+#textnav2{
+	margin-left: -15vw;
+}
+#textnav2 a {
+	margin-right: 2vw;
+	font-size: 4vw;
+	color: white;
+	text-decoration: none;
+}
+/*NAVEGADOR*/
+
+/*SECTION*/
+#celular{
+	display: block;
+}
+#texcel p{
+	font-size: 6vw;
+	position: absolute;
+	top: -160px;
+	left: -53px;
+	background: rgba(91, 48, 102, 0.8);
+	padding-right: 5px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#celtex {
+	background: #313131;
+	width: 70%;
+	border-bottom-right-radius: 10px; 
+}
+#celtex p {
+	color: white;
+	font-size: 5vw;
+}
+/*SECTION*/
+
+/*FOOTER*/
+#footer a{
+	font-size: 5vw;
+}
+/*FOOTER*/
+
+}
+/*360 px*/
